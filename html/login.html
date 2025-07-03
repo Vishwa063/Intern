@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Sri Eshwar College of Engineering</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen relative">
+
+<!-- Logo in top-left -->
+<div class="absolute top-4 left-4">
+    <img src="logo.png" alt="College Logo" class="w-40"> <!-- increased size -->
+</div>
+
+<!-- Centered login card -->
+<div class="flex justify-center items-center min-h-screen">
+    <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md mt-20">
+        <h2 class="text-2xl font-semibold text-center text-blue-900 mb-6">Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required
+                class="w-full px-4 py-2 mb-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <input type="password" placeholder="Password" required
+                class="w-full px-4 py-2 mb-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button type="submit"
+                class="w-full bg-blue-900 text-white py-2 rounded hover:bg-blue-800 transition duration-200">Login</button>
+        </form>
+        <p class="text-center mt-4 text-sm text-gray-600">
+            Don't have an account? 
+            <a href="signup.html" class="text-blue-700 hover:underline">Sign up</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
